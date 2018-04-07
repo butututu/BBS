@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id："
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_light"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="名字"
+            android:textSize="20dp"
+            android:id="@+id/post_nickname"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="楼层："
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="几楼"
+            android:textSize="20dp"
+            android:id="@+id/post_louceng"/>
+    </RelativeLayout>
+    <View android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#ff0000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="回复内容"
+            android:textSize="30dp"
+            android:id="@+id/post_info"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"></LinearLayout>
+    <View android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="#66ccff"
+        />
+</LinearLayout>
